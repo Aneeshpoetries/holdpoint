@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:05,327
+An AI assistant can organize your photos, move money, or deploy
+
+2
+00:00:05,327 --> 00:00:10,654
+software in seconds. But a helpful instruction can also become an
+
+3
+00:00:10,654 --> 00:00:15,980
+irreversible action. The real question is not whether an agent sounds
+
+4
+00:00:15,980 --> 00:00:21,307
+confident. It is who gave it authority, for exactly what, before
+
+5
+00:00:21,307 --> 00:00:22,760
+the impact happens.
+
+6
+00:00:23,460 --> 00:00:28,062
+This is HOLDPOINT: a control layer between an AI agent’s intent
+
+7
+00:00:28,062 --> 00:00:32,663
+and a consequential destination. It captures the request as a typed
+
+8
+00:00:32,663 --> 00:00:37,265
+action, checks policy and scope, calls for an independent signature when
+
+9
+00:00:37,265 --> 00:00:41,867
+needed, and records the effect. The agent cannot rewrite those rules
+
+10
+00:00:41,867 --> 00:00:43,540
+in a chat message.
+
+11
+00:00:44,240 --> 00:00:49,557
+Let’s open the working prototype. Aisha’s desk is built around her
+
+12
+00:00:49,557 --> 00:00:54,875
+photo archive: fourteen thousand indexed images, with originals treated as protected
+
+13
+00:00:54,875 --> 00:01:00,192
+assets. Right below, the live status shows held approvals, route coverage,
+
+14
+00:01:00,192 --> 00:01:05,510
+recovery copies, and evidence events. This is an operating view, not
+
+15
+00:01:05,510 --> 00:01:06,960
+a decorative dashboard.
+
+16
+00:01:07,660 --> 00:01:12,374
+The same boundary adapts to different people. Meera sees household services
+
+17
+00:01:12,374 --> 00:01:17,089
+and spending authority. Priya sees a production release path that calls
+
+18
+00:01:17,089 --> 00:01:21,803
+for a second signature. Arjun sees the enforcement perimeter and route
+
+19
+00:01:21,803 --> 00:01:26,517
+gaps. Each persona has its own context, protected surface, and suggested
+
+20
+00:01:26,517 --> 00:01:31,231
+actions, so the first screen tells you whose work you are
+
+21
+00:01:31,231 --> 00:01:31,660
+doing.
+
+22
+00:01:32,360 --> 00:01:37,224
+Here is the core interaction. We ask the assistant to wipe
+
+23
+00:01:37,224 --> 00:01:42,088
+original photos. HOLDPOINT does not treat that sentence as permission. It
+
+24
+00:01:42,088 --> 00:01:46,952
+drafts a structured contract, identifies the photo vault and irreversible impact,
+
+25
+00:01:46,952 --> 00:01:51,816
+then quarantines the proposal before it can enter the execution pipeline.
+
+26
+00:01:51,816 --> 00:01:56,680
+You can inspect the exact parameters and the reason for rejection.
+
+27
+00:01:57,380 --> 00:02:02,421
+For an action that is allowed only with dual control, the
+
+28
+00:02:02,421 --> 00:02:07,462
+approval inbox shows the proposed actor, target, amount, risk, policy, and
+
+29
+00:02:07,462 --> 00:02:12,503
+an expiring authorization token. A reviewer signs the specific action, not
+
+30
+00:02:12,503 --> 00:02:17,543
+a vague blanket request. The destination remains unchanged while that decision
+
+31
+00:02:17,543 --> 00:02:18,460
+is pending.
+
+32
+00:02:19,160 --> 00:02:23,493
+Policy lives outside the agent’s prose. The studio turns a proposed
+
+33
+00:02:23,493 --> 00:02:27,826
+rule into a typed, conflict-checked control. Route coverage then maps which
+
+34
+00:02:27,826 --> 00:02:32,159
+paths actually pass through the broker and which are exposed gaps.
+
+35
+00:02:32,159 --> 00:02:36,492
+That separation matters: seeing traffic is not the same as enforcing
+
+36
+00:02:36,492 --> 00:02:37,280
+a boundary.
+
+37
+00:02:37,980 --> 00:02:43,127
+Before a high-impact change, HOLDPOINT can inspect independent recovery snapshots and
+
+38
+00:02:43,127 --> 00:02:48,274
+run a restore drill. After a decision, the evidence ledger links
+
+39
+00:02:48,274 --> 00:02:53,421
+the intent, policy check, approval, dispatch, and receipt. Operators can trace
+
+40
+00:02:53,421 --> 00:02:58,100
+what was requested, what was authorized, and what actually happened.
+
+41
+00:02:58,800 --> 00:03:03,366
+The acceptance lab makes the behavior testable. We run twenty-eight paired
+
+42
+00:03:03,366 --> 00:03:07,932
+scenarios against the engine and destination state: a harmful action should
+
+43
+00:03:07,932 --> 00:03:12,499
+be stopped, while its legitimate control should still work. The result
+
+44
+00:03:12,499 --> 00:03:17,065
+here is twenty-eight verified pairs, including the actual decisions and side
+
+45
+00:03:17,065 --> 00:03:17,480
+effects.
+
+46
+00:03:18,180 --> 00:03:23,953
+There are six visual themes and ten role-specific desks, but the
+
+47
+00:03:23,953 --> 00:03:29,726
+real originality is architectural. HOLDPOINT is not another warning above a
+
+48
+00:03:29,726 --> 00:03:35,498
+chatbot. It is a checkpoint in the path to effect: intent
+
+49
+00:03:35,498 --> 00:03:41,271
+becomes a contract, authority becomes explicit, and every consequential outcome has
+
+50
+00:03:41,271 --> 00:03:44,420
+an accountable trail. Authority before impact.
